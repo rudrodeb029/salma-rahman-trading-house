@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bagBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b2e27" />
+      <stop offset="100%" stop-color="#141612" />
+    </linearGradient>
+    <linearGradient id="limeAccent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcf96d" />
+      <stop offset="100%" stop-color="#9fd12e" />
+    </linearGradient>
+  </defs>
+  <!-- Transparent background (no backdrop rect) -->
+  <!-- Stylish shopping bag handle -->
+  <path
+    d="M21 22V17C21 10.925 25.925 6 32 6C38.075 6 43 10.925 43 17V22"
+    fill="none"
+    stroke="#1f211d"
+    stroke-width="4.5"
+    stroke-linecap="round"
+  />
+  <path
+    d="M21 22V17C21 10.925 25.925 6 32 6C38.075 6 43 10.925 43 17V22"
+    fill="none"
+    stroke="url(#limeAccent)"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+  <!-- Bag body -->
+  <path
+    d="M11 22.5C11 20.567 12.567 19 14.5 19H49.5C51.433 19 53 20.567 53 22.5L56.2 52.5C56.5 55.8 53.9 59 50.5 59H13.5C10.1 59 7.5 55.8 7.8 52.5L11 22.5Z"
+    fill="url(#bagBody)"
+    stroke="#c7f051"
+    stroke-opacity="0.45"
+    stroke-width="1.5"
+  />
+  <!-- Handle rivet dots -->
+  <circle cx="21" cy="24.5" r="2" fill="#dcf96d" />
+  <circle cx="43" cy="24.5" r="2" fill="#dcf96d" />
+  <!-- SR monogram on the bag -->
+  <text
+    x="32"
+    y="47"
+    text-anchor="middle"
+    font-family="Geist, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+    font-size="22"
+    font-weight="800"
+    letter-spacing="-1"
+    fill="url(#limeAccent)"
+  >SR</text>
+</svg>
